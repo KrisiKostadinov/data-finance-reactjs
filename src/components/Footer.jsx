@@ -1,5 +1,11 @@
 import React from "react";
-import { AiFillFacebook, AiOutlineInstagram, AiFillTwitterSquare, AiFillGithub, AiFillGoogleSquare } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiOutlineInstagram,
+  AiFillTwitterSquare,
+  AiFillGithub,
+  AiFillGoogleSquare,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -14,50 +20,55 @@ const Footer = () => {
               pariatur.
             </p>
             <div className="flex gap-6">
-                <AiFillFacebook size={30} />
-                <AiOutlineInstagram size={30} />
-                <AiFillTwitterSquare size={30} />
-                <AiFillGithub size={30} />
-                <AiFillGoogleSquare size={30} />
+              <AiFillFacebook size={30} />
+              <AiOutlineInstagram size={30} />
+              <AiFillTwitterSquare size={30} />
+              <AiFillGithub size={30} />
+              <AiFillGoogleSquare size={30} />
             </div>
           </div>
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-3 max-sm:col-span-6">
             <h4 className="text-xl font-bold mb-4">Solutions</h4>
             <ul className="flex flex-col gap-2">
-                <li>Analytics</li>
-                <li>Marketing</li>
-                <li>Commerce</li>
-                <li>Insights</li>
+              <li>Analytics</li>
+              <li>Marketing</li>
+              <li>Commerce</li>
+              <li>Insights</li>
             </ul>
           </div>
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-3 max-sm:col-span-6">
             <h4 className="text-xl font-bold mb-4">Support</h4>
             <ul className="flex flex-col gap-2">
-                <li>Pricing</li>
-                <li>Documentation</li>
-                <li>Guides</li>
-                <li>API Status</li>
+              <li>Pricing</li>
+              <li>Documentation</li>
+              <li>Guides</li>
+              <li>API Status</li>
             </ul>
           </div>
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-3 max-sm:col-span-6">
             <h4 className="text-xl font-bold mb-4">Company</h4>
             <ul className="flex flex-col gap-2">
-                <li>About</li>
-                <li>Blog</li>
-                <li>Jobs</li>
-                <li>Press</li>
-                <li>Partners</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Partners</li>
             </ul>
           </div>
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-3 max-sm:col-span-6">
             <h4 className="text-xl font-bold mb-4">Legal</h4>
             <ul className="flex flex-col gap-2">
-                <li>Claim</li>
-                <li>Privacy Policy</li>
-                <li>Terms</li>
+              <li>Claim</li>
+              <li>Privacy Policy</li>
+              <li>Terms</li>
             </ul>
           </div>
         </div>
+        <p className="max-lg:mt-9 max-lg:px-9">
+          This is demo template with ReactJS. &copy; 2023 All rights reversed.
+          Made By
+          <a href="https://kriskata.com" className="pl-2 text-primary">Kristian Kostadinov</a>
+        </p>
       </div>
     </div>
   );
